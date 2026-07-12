@@ -1,0 +1,22 @@
+/* ============================================================
+   responsive.css — Responsive / breakpoint overrides
+   ============================================================ */
+
+/* Mobile-first: the app is a centered max-w-md column */
+html, body {
+  min-height: 100%;
+  overscroll-behavior: none;
+}
+
+/* Prevent pull-to-refresh on mobile */
+body {
+  overscroll-behavior-y: contain;
+}
+
+@media (min-width: 768px) {
+  /* On wider screens the main column stays centered */
+  #root {
+    display: flex;
+    justify-content: center;
+  }
+}

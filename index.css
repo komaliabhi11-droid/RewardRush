@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+/* ── Brand colour tokens ─────────────────────────────────────── */
+@theme {
+  --color-brand-black: #000000;
+  --color-brand-dark: #111111;
+  --color-brand-card: #1C1C1E;
+  --color-brand-orange: #FF7A00;
+  --color-brand-orangeLight: #FFA733;
+  --color-brand-grayMuted: #8E8E93;
+
+  /* Font */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* ── Split CSS imports ───────────────────────────────────────── */
+@import './css/animations.css';
+@import './css/style.css';
+@import './css/responsive.css';
